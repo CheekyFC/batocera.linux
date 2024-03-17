@@ -524,12 +524,17 @@ def createLibretroConfig(generator, system, controllers, metadata, guns, wheels,
             # 8bitdo n64 modkit
             "05000000c82d00006928000000010000",
             "030000007e0500001920000011810000",
+            # Retro Fighters Brawler64 BT NSO
+            "050000005e0400008e02000030110000",
+            "0500000049190000020400001b010000",
         ]
         
         valid_n64_controller_names = [
             "N64 Controller",
             "Nintendo Co., Ltd. N64 Controller",
             "8BitDo N64 Modkit",
+            "Xbox Wireless Controller",
+            "Gamepad",
         ]
         
         def update_n64_controller_config(controller_number):
